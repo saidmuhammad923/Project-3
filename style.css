@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    padding: 15px 0;
+    background: #000000;
+}
+
+.logo {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.list__link {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.nav__contact__list {
+    display: flex;
+    /* gap: 80px; */
+
+}
+
+.nav__content {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    justify-content: space-between;
+}
+
+.header {
+    min-height: 926px;
+    background: url(./image/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_content_titel {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    margin-bottom: 145px;
+}
+
+.header4_conten_btn {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 24px;
+    background: white;
+    border-radius: 10px;
+    width: 190px;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.about_me {
+    padding-top: 30px;
+    background: #0E1C25;
+    padding-bottom: 112px;
+}
+
+.about__me-title {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+}
+
+.about__me-content {
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_text {
+    max-width: 470px;
+    margin-left: 106px;
+}
+
+.content__text-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.content__text-description {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.projects {
+    padding-top: 45px;
+    padding-bottom: 70px;
+    background: #5C6B81;
+}
+
+
+.projects__title {
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0px 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.projects__content_item {
+    padding: 15px 15px 27px 15px;
+    background: #B12B06;
+    border-radius: 10px;
+    max-width: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card__desc {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 27px;
+
+}
+
+.card__btn {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 8px 25px;
+
+}
+
+.projects__content {
+    display: flex;
+    gap: 87px;
+    flex-wrap: wrap;
+}
+
+.footer__text {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 46px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin-top: 47px;
+}
+
+.footer {
+    padding-top: 47px;
+    padding-bottom: 62px;
+    background: #000000;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: space-between;
+
+}
